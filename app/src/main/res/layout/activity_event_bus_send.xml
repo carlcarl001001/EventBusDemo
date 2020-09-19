@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="主线程发送数据"
+    android:onClick="onSendClicked"
+    />
+    <Button
+        android:id="@+id/bt_send_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="接收粘性事件"
+        android:onClick="onStickyClicked"
+        />
+    <TextView
+        android:id="@+id/bt_send_sticky"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="显示结果"
+        />
+    <TextView
+        android:id="@+id/tv_send_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
